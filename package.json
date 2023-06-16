@@ -1,0 +1,21 @@
+{
+  "name": "pointeuse",
+  "version": "1.0.0",
+  "description": "pointeuse de travail ifbegin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Salah Amara",
+  "license": "MIT",
+  "dependencies": {
+    "emailjs-tcp-socket": "^2.0.2",
+    "express": "^4.18.2",
+    "node-zklib": "^1.3.0",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.2",
+    "socket.io-client": "^4.6.2",
+    "tcp-socket": "^0.5.8"
+  }
+}
